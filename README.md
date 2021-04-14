@@ -6,8 +6,7 @@ Latest version: v202104180, containing estimates for the week of April 18, 2021 
 These estimates are based on data collected from March 28, 2021 to April 10, 2021.
 
 ### Changes since previous version:
-* This is the first version of this data. 
-* We will continue to test and improve this dataset in future versions.
+- Adds "direction" values where they were missing in previous version.
 
 ### Known issues:
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
