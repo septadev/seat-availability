@@ -2,11 +2,11 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: v202104180, containing estimates for the week of April 18, 2021 to April 24, 2021.
-These estimates are based on data collected from March 28, 2021 to April 10, 2021.
+Latest version: [v202105020](https://github.com/septadev/seat-availability/releases/tag/v202105020), containing estimates for the week of May 2, 2021 to May 8, 2021.
+These estimates are based on data collected from April 11, 2021 to April 24, 2021.
 
 ### Changes since previous version:
-- Adds "direction" values where they were missing in previous version.
+- No changes
 
 ### Known issues:
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
