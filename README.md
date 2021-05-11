@@ -2,13 +2,14 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202105020](https://github.com/septadev/seat-availability/releases/tag/v202105020), containing estimates for the week of May 2, 2021 to May 8, 2021.
-These estimates are based on data collected from April 11, 2021 to April 24, 2021.
+Latest version: [v202105090](https://github.com/septadev/seat-availability/releases/tag/v202105090), containing estimates for the week of May 9, 2021 to May 15, 2021.
+These estimates are based on data collected from April 24, 2021 to May 1, 2021.
 
 ### Changes since previous version:
-- No changes
+* A new schedule went into effect on May 9, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
 
 ### Known issues:
+* There is not yet sufficient ridership data from this schedule to make estimates directly. Estimates are based on observations made during the previous schedule. Estimates may therefore be less accurate than in previous versions.
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
 * All bus, trolley, trackless trolley, NHSL, MFL, and BSL trips are included for completeness, but some have empty values in the "estimated_seat_availability_category" column, indicating no estimation is available.
 * In future versions, this dataset may include a separate file containing seat availability estimations for Regional Rail routes.
@@ -21,7 +22,8 @@ This LICENSE AGREEMENT ("Agreement") is entered into by and between Southeastern
 SEPTA hereby grants to Licensee a non-exclusive, non-assignable, non-transferable, limited and revocable right to use, reproduce and redistribute the Estimated Seat Availability Dataset (“the dataset”) subject to the following terms and conditions: 
 
 * Licensee may not use SEPTA's trademarks and copyrighted materials for any commercial or profit-making use and may not alter them in any way. See SEPTA’s Copyright Notice and Trademark Notice for the full text: http://www.septa.org/site/copyright.html 
-* The dataset is provided on an "as is" and "as available" basis. SEPTA makes no representations or warranties of any kind, express or implied, pertaining to the dataset. SEPTA disclaims all warranties pertaining to the dataset, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, accuracy, completeness, usefulness, timeliness, reliability or functionality. SEPTA and its employees, officers, Board members and agents will not be liable for damages of any kind arising from the use of the dataset including but not limited to direct, indirect, incidental, punitive and consequential damages. 
+* The dataset is provided on an "as is" and "as available" basis. SEPTA makes no representations or warranties of any kind, express or implied, pertaining to the dataset. SEPTA disclaims all warranties pertaining to the dataset, express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, accuracy, completeness, usefulness, timeliness, reliability or functionality. SEPTA and its employees, officYeah! I dunno if it went anywhere
+* ers, Board members and agents will not be liable for damages of any kind arising from the use of the dataset including but not limited to direct, indirect, incidental, punitive and consequential damages. 
 * SEPTA reserves the right to alter and/or no longer provide the dataset at any time without prior notice. 
 * Licensee agrees to indemnify, defend and hold harmless SEPTA, its employees, officers, Board members and agents, from and against all fines, suits, proceedings, claims, causes of action, demands, or liabilities of any kind or of any nature arising out of or in connection with Licensee's use of the dataset. 
 * The validity of any term or provision of the Agreement will not affect the validity of any other provision set forth herein. 
