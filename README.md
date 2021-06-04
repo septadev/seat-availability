@@ -2,15 +2,15 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202105301](https://github.com/septadev/seat-availability/releases/tag/v202105301), containing estimates for the week of May 30, 2021 to June 5, 2021 and reflecting raised vehicle capacity limits.
-These estimates are based on ridership data collected from May 9, 2021 to May 22, 2021 and the lifted vehicle capacity restrictions.
+Latest version: [v202106060](https://github.com/septadev/seat-availability/releases/tag/v202106060), containing estimates for the week of June 6, 2021 to June 12, 2021.
+These estimates are based on data collected from May 16, 2021 to May 29, 2021.
 
 ### Changes since previous version:
-* This version reflects the lifted vehicle capacity restrictions in effect on June 1.
-  * For more information, please see https://www.septa.org/covid-19/m/service-information.html 
-  * The service standards for loads are found in the Service Standards and Process document at http://www.septa.org/service-standards/pdf/2020-service-standards-process.pdf on page 27.
+* Data is now available for Routes 204, 310, and 311, as well as the LUCY Gold and LUCY Green lines. As with other routes, this dataset does not necessarily contain estimations for all trips and stops on those routes. See "Known issues" for more details.
+* A new schedule goes into effect on June 6, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
 
 ### Known issues:
+* There is not yet sufficient ridership data from this schedule to make estimates directly. Estimates are based on observations made during the previous schedule. Estimates may therefore be less accurate than in previous versions.
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
 * All bus, trolley, trackless trolley, NHSL, MFL, and BSL trips are included for completeness, but some have empty values in the "estimated_seat_availability_category" column, indicating no estimation is available.
 * In future versions, this dataset may include a separate file containing seat availability estimations for Regional Rail routes.
