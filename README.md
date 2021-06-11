@@ -2,12 +2,11 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202106060](https://github.com/septadev/seat-availability/releases/tag/v202106060), containing estimates for the week of June 6, 2021 to June 12, 2021.
-These estimates are based on data collected from May 16, 2021 to May 29, 2021.
+Latest version: [v202106130](https://github.com/septadev/seat-availability/releases/tag/v202106130), containing estimates for the week of June 13, 2021 to June 19, 2021.
+These estimates are based on data collected from May 23, 2021 to June 5, 2021.
 
 ### Changes since previous version:
-* Data is now available for Routes 204, 310, and 311, as well as the LUCY Gold and LUCY Green lines. As with other routes, this dataset does not necessarily contain estimations for all trips and stops on those routes. See "Known issues" for more details.
-* A new schedule goes into effect on June 6, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
+* A new schedule went into effect on June 6, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
 
 ### Known issues:
 * There is not yet sufficient ridership data from this schedule to make estimates directly. Estimates are based on observations made during the previous schedule. Estimates may therefore be less accurate than in previous versions.
