@@ -2,12 +2,13 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202106200](https://github.com/septadev/seat-availability/releases/tag/v202106200), containing estimates for the week of June 20, 2021 to June 26, 2021.
+Latest version: [v202106201](https://github.com/septadev/seat-availability/releases/tag/v202106201), containing estimates for the week of June 20, 2021 to June 26, 2021.
 These estimates are based on data collected from June 6, 2021 to June 15, 2021.
 
 ### Changes since previous version:
+* Includes estimates for Routes "101B" and "102B", which are the shuttle bus replacements for Routes 101 and 102 respectively. We anticipating providing these estimates while shuttle buses are operating.
 * A new schedule went into effect on June 6, 2021. The estimated seat availability  is based on data from June 6, 2021 to June 15, 2021. Using fewer but more recent observations for estimations following a schedule change is a departure from previous methodology regarding schedule changes. Previously, at the beginning of a new schedule change, a seat availability estimate for a scheduled stop was based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule. It is now based on ridership data observed after the current schedule took effect.
-* Fixed mislabeled column in metadata file and made minor edits for clarity.
+* Fixed mislabeled column name in metadata file and made minor edits for clarity.
 
 ### Known issues:
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
