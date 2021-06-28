@@ -2,11 +2,12 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202106270](https://github.com/septadev/seat-availability/releases/tag/v202106270), containing estimates for the week of June 27, 2021 to July 3, 2021.
+Latest version: [v202106271](https://github.com/septadev/seat-availability/releases/tag/v202106271), containing estimates for the week of June 27, 2021 to July 3, 2021.
 These estimates are based on data collected from June 6, 2021 to June 19, 2021.
 
 ### Changes in this version:
-* Includes estimated seat availability for Regional Rail Routes in a new file, `route_type_2_estimated_seat_availability_v202106270.csv`. We anticipate including estimated seat availability for Regional Rail routes for the foreseeable future.
+* Updates Regional Rail estimates to reflect new schedule released on June 27, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
+* Includes estimated seat availability for Regional Rail Routes in a new file, `route_type_2_estimated_seat_availability_v202106271.csv`. We anticipate including estimated seat availability for Regional Rail routes for the foreseeable future.
 * Both files include a new column, 'route_short_name'. This column improves the human-readability of data for Regional Rail routes, since the route_id values for those routes are three-letter codes, not the full English names. The column is also provided for bus routes for consistency between the two files. See the column description in the metadata file for more details.
 
 ### Special notes:
