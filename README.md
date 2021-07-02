@@ -2,13 +2,15 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202106271](https://github.com/septadev/seat-availability/releases/tag/v202106271), containing estimates for the week of June 27, 2021 to July 3, 2021.
-These estimates are based on data collected from June 6, 2021 to June 19, 2021.
+Latest version: [v202107040](https://github.com/septadev/seat-availability/releases/tag/v202107040), containing estimates for the week of July 4, 2021 to July 10, 2021.
+These estimates are based on data collected from June 13, 2021 through June 26, 2021.
 
 ### Changes in this version:
-* Updates Regional Rail estimates to reflect new schedule released on June 27, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
-* Includes estimated seat availability for Regional Rail Routes in a new file, `route_type_2_estimated_seat_availability_v202106271.csv`. We anticipate including estimated seat availability for Regional Rail routes for the foreseeable future.
-* Both files include a new column, 'route_short_name'. This column improves the human-readability of data for Regional Rail routes, since the route_id values for those routes are three-letter codes, not the full English names. The column is also provided for bus routes for consistency between the two files. See the column description in the metadata file for more details.
+* Sunday, July 4 is a national holiday. Please select SUNDAY information on this day because SEPTA will run Sunday service as its Holiday schedule on all services. [Late night Regional Rail service](http://www.septa.org/events/pdf/2021-07-rrd-late-night.pdf) is not reflected in this dataset.
+* On Monday, July 5:
+  * City and suburban operations will operate on a regular WEEKDAY schedule. Please select WEEKDAY information for bus routes this day.
+  * Regional Rail service will operate on a SUNDAY schedule. Please select SUNDAY information for Regional Rail routes on this day.
+* A new Regional Rail schedule went into effect on June 27, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
 
 ### Special notes:
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
