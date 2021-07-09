@@ -2,14 +2,10 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202107040](https://github.com/septadev/seat-availability/releases/tag/v202107040), containing estimates for the week of July 4, 2021 to July 10, 2021.
-These estimates are based on data collected from June 13, 2021 through June 26, 2021.
+Latest version: [v202107110](https://github.com/septadev/seat-availability/releases/tag/v202107110), containing estimates for the week of July 11, 2021 to July 17, 2021.
+These estimates are based on data collected from June 20, 2021 through July 3, 2021.
 
 ### Changes in this version:
-* Sunday, July 4 is a national holiday. Please select SUNDAY information on this day because SEPTA will run Sunday service as its Holiday schedule on all services. [Late night Regional Rail service](http://www.septa.org/events/pdf/2021-07-rrd-late-night.pdf) is not reflected in this dataset.
-* On Monday, July 5:
-  * City and suburban operations will operate on a regular WEEKDAY schedule. Please select WEEKDAY information for bus routes this day.
-  * Regional Rail service will operate on a SUNDAY schedule. Please select SUNDAY information for Regional Rail routes on this day.
 * A new Regional Rail schedule went into effect on June 27, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
 
 ### Special notes:
