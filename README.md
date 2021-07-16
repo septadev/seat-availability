@@ -2,11 +2,12 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202107110](https://github.com/septadev/seat-availability/releases/tag/v202107110), containing estimates for the week of July 11, 2021 to July 17, 2021.
+Latest version: [v202107180](https://github.com/septadev/seat-availability/releases/tag/v202107180), containing estimates for the week of July 11, 2021 to July 17, 2021.
 These estimates are based on data collected from June 20, 2021 through July 3, 2021.
 
 ### Changes in this version:
-* A new Regional Rail schedule went into effect on June 27, 2021. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations at similar times of day and the same service day, route, direction, and stop during the previous schedule.
+* This version and future versions will use slightly more recent data for Regional Rail estimates to better reflect changing conditions.
+* A new GTFS version, v202107161, was released today with minor changes. This dataset uses the previous version, v202106271. Most notably, Routes 101B and 102B are still referred to as such, whereas the new GTFS version uses 101 and 102. Future releases of this dataset will reflect the new GTFS version.
 
 ### Special notes:
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
