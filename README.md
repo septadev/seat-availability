@@ -7,7 +7,7 @@ These estimates are based on data collected from July 4, 2021 through July 17, 2
 
 ### Changes in this version:
 * This version and future versions will use slightly more recent data for Regional Rail estimates to better reflect changing conditions.
-* A new GTFS version, v202107161, was released on July 16 with minor changes from the previous version. This estimated seat availability dataset uses the previous version, v202106271. Most notably, Routes 101B and  are still referred to as such, whereas the new GTFS version uses "101" and "102." 
+* A new GTFS version, v202107161, was released on July 16 with minor changes from the previous version. This estimated seat availability dataset uses the previous version, v202106271. Most notably, Routes 101B and 102B are still referred to as such, whereas the new GTFS version uses "101" and "102." 
 
 ### Special notes:
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
