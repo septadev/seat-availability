@@ -2,12 +2,13 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202107250](https://github.com/septadev/seat-availability/releases/tag/v202107250), containing estimates for the week of July 25, 2021 to July 31, 2021.
-These estimates are based on data collected from July 4, 2021 through July 17, 2021 for bus routes, and data from July 7, 2021 to July 20, 2021 for Regional Rail routes. 
+Latest version: [v202108010](https://github.com/septadev/seat-availability/releases/tag/v202108010), containing estimates for the week of August 1 to August 7, 2021.
+These estimates are based on data collected from July 9, 2021 through July 24, 2021 for bus routes, and data from July 10, 2021 to July 25, 2021 for Regional Rail routes. 
 
 ### Changes in this version:
-* This version and future versions will use slightly more recent data for Regional Rail estimates to better reflect changing conditions.
-* A new GTFS version, v202107161, was released on July 16 with minor changes from the previous version. This estimated seat availability dataset uses the previous version, v202106271. Most notably, Routes 101B and 102B are still referred to as such, whereas the new GTFS version uses "101" and "102." 
+* A new GTFS version, v202108012, will take effect on Sunday, August 1st. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations from the previous schedule at similar times of day and the same service day, route, direction, and stop during the previous schedule. This estimated seat availability dataset uses this version, v202108012. 
+* Routes 101 and 102 are now referred to as such in both this dataset and the GTFS version.
+* Route 135 - a new SEPTA route - begins service on August 1. Because this is a new route, we are not yet able to provide seat availability estimates for it. We anticipate providing estimates once sufficient ridership data has been collected.
 
 ### Special notes:
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
