@@ -2,14 +2,13 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202108220](https://github.com/septadev/seat-availability/releases/tag/v202108220), containing estimates for the week of August 22 to August 28, 2021.
-These estimates are based on data collected from August 1, 2021 through August 15, 2021 for most bus routes, and data from August 4, 2021 to August 17, 2021 for Regional Rail routes. 
+Latest version: [v202108290](https://github.com/septadev/seat-availability/releases/tag/v202108290), containing estimates for the week of August 22 to August 28, 2021.
+These estimates are based on data collected from August 7, 2021 through August 22, 2021 for bus routes, and data from August 11, 2021 to August 24, 2021 for Regional Rail routes. 
 
 ### Changes in this version:
-* The current GTFS version, [v202108073](https://github.com/septadev/GTFS/releases/tag/v202108073), was released on Friday, August 13th. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations from the previous schedule at similar times of day and the same service day, route, direction, and stop during the previous schedule. This estimated seat availability dataset uses the current GTFS version, v202108073.
+* The current GTFS version, [v202109051](https://github.com/septadev/GTFS/releases/tag/v202109051), was released on Sunday, August 29th. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations from the previous schedule at similar times of day and the same service day, route, direction, and stop during the previous schedule. Some seat availability estimates may not be exist due to a lack of sufficeint ridership observations. This estimated seat availability dataset uses the current GTFS version, v202109051.
 
 ### Special notes:
-* Due to data availability, estimates for some bus routes are partially based on older data, collected no earlier than July 24, 2021.
 * This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
 * All bus, trolley, trackless trolley, NHSL, Subway/Elevated, and Regional Rail trips are included for completeness, but some have empty values in the "estimated_seat_availability_category" column, indicating no estimation is available.
 
