@@ -2,14 +2,16 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v2021090190](https://github.com/septadev/seat-availability/releases/tag/v202109190), containing estimates for the week of September 19 to September 25, 2021.
-These estimates are based on data collected from August 29, 2021 through September 12, 2021 for most bus routes, and data from September 5, 2021 to September 15, 2021 for Regional Rail routes. 
+Latest version: [v2021090260](https://github.com/septadev/seat-availability/releases/tag/v202109260), containing estimates for the week of September 26 to October 2, 2021.
+These estimates are based on data collected from September 4, 2021 through September 19, 2021 for most bus routes, and data from September 8, 2021 to September 21, 2021 for Regional Rail routes and the Norristown High Speed Line. 
 
 ### Changes in this version:
-* The current GTFS version, [v202109052](https://github.com/septadev/GTFS/releases/tag/v202109052), was released on Thursday, September 2nd. At the beginning of a new schedule change, a seat availability estimate for a scheduled stop is based on an average of ridership observations from the previous schedule at similar times of day and the same service day, route, direction, and stop during the previous schedule. Some seat availability estimates may not be exist due to a lack of sufficeint ridership observations. This estimated seat availability dataset uses the current GTFS version, v202109052.
+* Includes estimated seat availability for the Norristown High Speed Line in the existing file, `route_type_0_1_3_estimated_seat_availability_v202106270.csv`. We anticipate including estimated seat availability for the Norristown High Speed Line for the foreseeable future.
+* A methodology change has been made to ensure the estimates for bus routes better reflect returning ridership conditions.
+* Estimates are no longer available for routes 101 and 102 due to data availability. Data was previously available while buses were substituting on these Suburban Trolley routes.
 
 ### Special notes:
-* This version has estimations for some bus routes, but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
+* This version, like previous versions, has estimations for some bus routes but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
 * All bus, trolley, trackless trolley, NHSL, Subway/Elevated, and Regional Rail trips are included for completeness, but some have empty values in the "estimated_seat_availability_category" column, indicating no estimation is available.
 
 ## License Agreement
