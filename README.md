@@ -2,13 +2,12 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v2021090260](https://github.com/septadev/seat-availability/releases/tag/v202109260), containing estimates for the week of September 26 to October 2, 2021.
-These estimates are based on data collected from September 4, 2021 through September 19, 2021 for most bus routes, and data from September 8, 2021 to September 21, 2021 for Regional Rail routes and the Norristown High Speed Line. 
+Latest version: [v202110100](https://github.com/septadev/seat-availability/releases/tag/v202110100), containing estimates for the week of October 10 to October 16, 2021.
+These estimates are based on data collected from September 18, 2021 through October 3, 2021 for most bus routes, Regional Rail routes and the Norristown High Speed Line. 
 
 ### Changes in this version:
-* Includes estimated seat availability for the Norristown High Speed Line in the existing file, `route_type_0_1_3_estimated_seat_availability_v202106270.csv`. We anticipate including estimated seat availability for the Norristown High Speed Line for the foreseeable future.
-* A methodology change has been made to ensure the estimates for bus routes better reflect returning ridership conditions.
-* Estimates are no longer available for routes 101 and 102 due to data availability. Data was previously available while buses were substituting on these Suburban Trolley routes.
+* Due to opposite-side boarding due to track work, estimations for some NHSL stops are not available. We anticipate making these available in future versions. More information on boarding locations can be found here: https://realtime.septa.org/routes/status/NHSL
+* The current GTFS version, v202110071, went into effect on Monday, September 18th. At the beginning of a new schedule change, a seat availability estimate for scheduled stop is based on an average of ridership  from the schedule at similar times of day and the same service day, route, direction, and stop during the previous schedule. Some seat availability estimates may not be exist due to data availability. This estimated availability dataset uses the current GTFS version, v202110071.
 
 ### Special notes:
 * This version, like previous versions, has estimations for some bus routes but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
