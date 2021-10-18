@@ -2,11 +2,10 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202110100](https://github.com/septadev/seat-availability/releases/tag/v202110100), containing estimates for the week of October 10 to October 16, 2021.
-These estimates are based on data collected from September 18, 2021 through October 3, 2021 for most bus routes, Regional Rail routes and the Norristown High Speed Line. 
+Latest version: [v202110170](https://github.com/septadev/seat-availability/releases/tag/v202110170), containing estimates for the week of October 17 to October 23, 2021.
+These estimates are based on data collected from September 25, 2021 through October 10, 2021 for most bus routes, Regional Rail routes and the Norristown High Speed Line. 
 
 ### Changes in this version:
-* Due to opposite-side boarding due to track work, estimations for some NHSL stops are not available. We anticipate making these available in future versions. More information on boarding locations can be found here: https://realtime.septa.org/routes/status/NHSL
 * The current GTFS version, v202110071, went into effect on Monday, September 18th. At the beginning of a new schedule change, a seat availability estimate for scheduled stop is based on an average of ridership  from the schedule at similar times of day and the same service day, route, direction, and stop during the previous schedule. Some seat availability estimates may not be exist due to data availability. This estimated availability dataset uses the current GTFS version, v202110071.
 
 ### Special notes:
