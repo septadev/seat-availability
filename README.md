@@ -2,8 +2,8 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202110240](https://github.com/septadev/seat-availability/releases/tag/v202110240), containing estimates for the week of October 24 to October 30, 2021.
-These estimates are based on data collected from October 2, 2021 through October 17, 2021 for most bus routes, Regional Rail routes and the Norristown High Speed Line. 
+Latest version: [v202110310](https://github.com/septadev/seat-availability/releases/tag/v202110310), containing estimates for the week of October 24 to October 30, 2021.
+These estimates are based on data collected from November 1, 2021 through November 7, 2021 for most bus routes, Regional Rail routes and the Norristown High Speed Line. 
 
 ### Changes in this version:
 * No changes in this verison.
