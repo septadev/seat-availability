@@ -2,11 +2,11 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202111140](https://github.com/septadev/seat-availability/releases/tag/v202111140), containing estimates for the week of November 14 to November 20, 2021.
-These estimates are based on data collected from October 23, 2021 through November 7, 2021 for Regional Rail routes, subway/elevated routes, the Norristown High Speed Line, and most bus routes.
+Latest version: [v202111210](https://github.com/septadev/seat-availability/releases/tag/v202111210), containing estimates for the week of November 21 to November 27, 2021.
+These estimates are based on data collected from October 30, 2021 through November 14, 2021 for Regional Rail routes, subway/elevated routes, the Norristown High Speed Line, and most bus routes.
 
 ### Changes in this version:
-* Includes estimated seat availability for the Market-Frankford Line and Broad Street Line in the existing file, `route_type_0_1_3_estimated_seat_availability_v202111140.csv`. We anticipate including estimated seat availability for the Market-Frankford Line and Broad Street Line and BSL for the foreseeable future.
+* No changes in this version.
 
 ### Special notes:
 * This version, like previous versions, has estimations for some bus routes but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
