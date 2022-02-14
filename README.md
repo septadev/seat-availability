@@ -2,8 +2,8 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202201300](https://github.com/septadev/seat-availability/releases/tag/v202201300), containing estimates for the week of January 30, 2021 to February 5, 2022.
-These estimates are based on data collected from January 8, 2022 through January 23, 2022 for Regional Rail routes, subway/elevated routes, the Norristown High Speed Line, and most bus routes.
+Latest version: [v202202130](https://github.com/septadev/seat-availability/releases/tag/v202202130), containing estimates for the week of February 13, 2022 to February 19, 2022.
+These estimates are based on data collected from January 22 through February 6, 2022 for Regional Rail routes, subway/elevated routes, and the Norristown High Speed Line; and from January 29 through February 13, 2022 for most bus routes.
 
 ### Changes in this version:
 * No changes in this version.
