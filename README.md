@@ -2,11 +2,11 @@
 This dataset estimates the seat availability on SEPTA routes.
 
 ## Latest release
-Latest version: [v202208280](https://github.com/septadev/seat-availability/releases/tag/v202208280), containing estimates for the week of August 28, 2022 to September 3, 2022.
-These estimates are based on data collected from August 13 through August 27, 2022 for most bus routes, and from August 13 through August 25, 2022 for Regional Rail routes, subway/elevated routes, and the Norristown High Speed Line.
+Latest version: [v202209040](https://github.com/septadev/seat-availability/releases/tag/v202209040), containing estimates for the week of September 4, 2022 to September 10, 2022.
+These estimates are based on data collected from August 13 through August 27, 2022 for most bus routes, Regional Rail routes, subway/elevated routes, and the Norristown High Speed Line.
 
 ### Changes in this version:
-* GTFS version v202208301 was released on August 30, 2022. At the beginning of a new schedule change, a seat availability estimate for scheduled stop may be based on an average of ridership from the schedule at similar times of day and the same service day, route, direction, and stop during the previous schedule. Some seat availability estimates may not be exist due to data availability. This estimated availability dataset matches the current GTFS version, which is v202208301.
+* This version uses GTFS v202209021, which contains minor changes from the previous version. As a result, some routes may have fewer estimations available.
 
 ### Special notes:
 * This version, like previous versions, has estimations for some bus routes but not all bus routes. This version does not contain estimations for some modes, routes, trips, and stops due to data availability. We expect to update existing estimations and to add estimations for additional routes in future versions.
